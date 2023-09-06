@@ -4,7 +4,7 @@ var requirePromise = require('./requirePromise');
 
 requirePromise();
 
-var CreateDataPropertyOrThrow = require('es-abstract/2022/CreateDataPropertyOrThrow');
+var CreateDataPropertyOrThrow = require('es-abstract/2023/CreateDataPropertyOrThrow');
 
 var NewPromiseCapability = require('./aos/NewPromiseCapability');
 

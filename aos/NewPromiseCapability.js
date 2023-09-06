@@ -4,8 +4,8 @@ var GetIntrinsic = require('get-intrinsic');
 
 var $TypeError = GetIntrinsic('%TypeError%');
 
-var IsCallable = require('es-abstract/2022/IsCallable');
-var IsConstructor = require('es-abstract/2022/IsConstructor');
+var IsCallable = require('es-abstract/2023/IsCallable');
+var IsConstructor = require('es-abstract/2023/IsConstructor');
 
 module.exports = function NewPromiseCapability(C) {
 	if (!IsConstructor(C)) {
