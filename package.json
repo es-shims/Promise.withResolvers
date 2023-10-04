@@ -69,8 +69,8 @@
 	"homepage": "https://github.com/es-shims/Promise.withResolvers#readme",
 	"dependencies": {
 		"call-bind": "^1.0.2",
-		"define-properties": "^1.2.0",
-		"es-abstract": "^1.22.1",
+		"define-properties": "^1.2.1",
+		"es-abstract": "^1.22.2",
 		"get-intrinsic": "^1.2.1"
 	},
 	"devDependencies": {
