@@ -9,10 +9,3 @@ jobs:
       range: '0.8 - 0.12'
       type: minors
       command: npm run test:promise-shimmed
-
-  node:
-    name: 'node, promise-shimmed tests'
-    needs: [tests]
-    runs-on: ubuntu-latest
-    steps:
-      - run: 'echo tests completed'

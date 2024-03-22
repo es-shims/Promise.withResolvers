@@ -9,10 +9,3 @@ jobs:
       range: '>= 20'
       type: minors
       command: npm run test:native
-
-  node:
-    name: 'node, native tests'
-    needs: [tests]
-    runs-on: ubuntu-latest
-    steps:
-      - run: 'echo tests completed'
