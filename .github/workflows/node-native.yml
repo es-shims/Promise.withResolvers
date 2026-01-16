@@ -6,6 +6,6 @@ jobs:
   tests:
     uses: ljharb/actions/.github/workflows/node.yml@main
     with:
-      range: '>= 20'
+      range: '>= 22'
       type: minors
       command: npm run test:native
