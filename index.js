@@ -12,7 +12,6 @@ requirePromise();
 var bound = callBind(getPolyfill());
 
 var rebindable = function withResolvers(iterable) {
-	// eslint-disable-next-line no-invalid-this
 	return bound(typeof this === 'undefined' ? Promise : this, iterable);
 };
 
