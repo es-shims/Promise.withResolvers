@@ -4,9 +4,9 @@ var requirePromise = require('./requirePromise');
 
 requirePromise();
 
-var CreateDataPropertyOrThrow = require('es-abstract/2024/CreateDataPropertyOrThrow');
+var CreateDataPropertyOrThrow = require('es-abstract/2025/CreateDataPropertyOrThrow');
 
-var NewPromiseCapability = require('es-abstract/2024/NewPromiseCapability');
+var NewPromiseCapability = require('es-abstract/2025/NewPromiseCapability');
 
 module.exports = function withResolvers() {
 	var C = this; // step 1
